@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'PageOne.dart';
+import 'package:whatsapp/Login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PageOne(),
+      home: Login(),
     );
   }
 }
